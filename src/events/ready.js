@@ -10,7 +10,7 @@ module.exports = {
   async execute(client) {
     logger.info(`Logged in as ${client.user.tag} (${client.user.id})`);
     client.user.setPresence({
-      activities: [{ name: 'for /verify', type: 3 }], // type 3 = Watching
+      activities: [{ name: 'Exclusive Access', type: 3 }], // type 3 = Watching
       status: 'online',
     });
 
