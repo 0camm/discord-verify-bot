@@ -1,6 +1,6 @@
 const { EmbedBuilder } = require('discord.js');
 
-const BRAND_COLOR   = 0x6B21A8;
+const BRAND_COLOR   = 0x000000;
 const SUCCESS_COLOR = 0x57F287;
 const ERROR_COLOR   = 0xED4245;
 const WARN_COLOR    = 0xFEE75C;
