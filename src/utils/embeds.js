@@ -31,8 +31,11 @@ function dmKeyEmbed(key, expiryMinutes, guildName) {
     .setTitle('Your Verification Code')
     .setDescription(
       `You requested a verification code for **${guildName}**.\n\n` +
+      `**PC** — click the box to copy:\n` +
       `\`\`\`${key}\`\`\`\n` +
-      `Return to the server and press **Submit Key**, then paste this code when prompted.\n\n` +
+      `**Mobile** — tap and hold to copy:\n` +
+      `\`${key}\`\n\n` +
+      `Return to the server and press **Submit Key**, then paste the code when prompted.\n\n` +
       `This code expires in **${expiryMinutes} minutes** and can only be used once.`
     )
     .setFooter({ text: 'If you did not request this, you can safely ignore this message.' })
